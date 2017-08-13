@@ -1,0 +1,11 @@
+machine:
+    services:
+        - docker
+
+dependencies:
+    override:
+        - docker image build -t platzi
+
+test:
+    override:
+        - docker container run platzi npm test
