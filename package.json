@@ -1,0 +1,20 @@
+{
+  "name": "platzi",
+  "version": "1.0.0",
+  "description": "Ejemplo",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "author": "arquio",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.4",
+    "mocha": "^3.5.0",
+    "supertest": "^3.0.0"
+  }
+}
